@@ -3,7 +3,13 @@
 // └─────────────────┘
 
 
-
+const isAdmin = function(userObj) {
+if (userObj.userRole === "ADMIN") {
+    return true;
+ } else { 
+      return false;
+}
+};
 
 
 // ┌─────────────────────────────────────┐
